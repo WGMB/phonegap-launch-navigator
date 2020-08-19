@@ -31,7 +31,7 @@
   <!-- android -->
   <platform name="android">
     <preference name="GOOGLE_API_KEY_FOR_ANDROID" />
-    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+    <config-file target="AndroidManifest.xml" parent="/manifest">
       <meta-data
               android:name="launchnavigator.GOOGLE_API_KEY"
               android:value="$GOOGLE_API_KEY_FOR_ANDROID" />
